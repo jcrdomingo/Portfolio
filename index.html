@@ -1,63 +1,77 @@
-s
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Index</title>
 
-     <style>
-      
-       a:hover{
-                text-transform: uppercase;
-                
-              }
-     </style>
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/paper/bootstrap.min.css">
+  <style>
+
+    header,footer{background-color: #99ccff;
+       padding: 1em;}
+  </style>
+
 </head>
 <body>
+  
   <div class="container">
+
+  
     <header>
-      <h1 id="top">Portfolio</h1>
-     
+      <h1 id="top"><font color="white">Portfolio</font></h1>
     </header>
+ 
+
+
+ 
     <nav>
-   
-     <table>
-       <tr>
-       <td><a href="#top">Name|</a></td>
-       <td><a href="#resume">Resume|</a></td>
-       <td><a href="#ct">List of Courses Taken|</a></td>
-       <td><a href="#sp">School Projects|</a></td>
-       <td><a href="#cs">Career Summary|</a></td>
-       <td><a href="#fs">Functional Skill List|</a></td>
-       <td><a href="#cp">Course Project|</a></td>
-       <td><a href="#ci">Community Involvement|</a></td>
-       <td><a href="#vp">Volunteer Projects|</a></td>
-       <td><a href="#ecp">Extra-curricular projects|</a></td>
-       <td><a href="#cos">Computer Skills|</a></td>
-       <td><a href="#mc">Multimedia Clips</a></td>
-     </tr>
-      </table>
+   <div class="panel panel-primary">
+  <ul  class="nav nav-tabs">
+
+       
+      
+       <li class="active"><a href="#top">Home</a></li>
+       <li> <a href="#ct">List of Courses Taken</a></li>
+       <li><a href="#sp">School Projects</a></li>
+       <li><a href="#cs">Career Summary</a></li>
+       <li><a href="#fs">Functional Skill List</a></li>
+       <li><a href="#cp">Course Project</a></li>
+       <li><a href="#ci">Community Involvement</a></li>
+       <li><a href="#vp">Volunteer Projects</a></li>
+       <li> <a href="#ecp">Extra-curricular projects</a></li>
+       <li><a href="#cos">Computer Skills</a></li>
+       <li><a href="#mc">Multimedia Clips</a></li>
+     
+    </ul>
+
     
     </nav>
+  
    
     <article>
       <fieldset align="right">
     <img src="images/jc.jpg" height="170px" width="width" alt="profile-picture" align="left" />
-      <p>&nbsp;&nbsp;&nbsp;<strong>JOHN CARLO R. DOMINGO</strong><br />
-         &nbsp;&nbsp;&nbsp;jcrdomingo14@hotmail.com</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font size="5px">JOHN CARLO R. DOMINGO</font></strong><br />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font align="bottom">jcrdomingo14@hotmail.com</font></p>
       </fieldset>
     </article>
     <article>
-      <h2 id="resume">RESUME</h2>
+      <h2 id="home">RESUME</h2>
       <hr />
-     
+      
       <fieldset>
+        <div class="panel-heading">
       <h3 id="ct">List of Courses Taken</h3>
-        <table>
-          <tr>
+        </div>
+        <table class="table table-striped table-hover "> 
+          <thead>
+          <tr class="success">
             <th>Subject</th>
             <th>Description</th>
             <th>Units</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>ICS2</td>
             <td>Introduction to Computer Programming</td>
@@ -163,11 +177,14 @@ s
             <td>Introduction to Philosophy and Logic</td>
             <td>3</td>
           </tr>
+          <tbody>
       </table> 
     </fieldset>
   
       <hr />
+   
       <h3 id="sp">School Projects</h3>
+   
       <ul>
         <li>The advantages and disadvantages of an end to end control system(Closed System Architecture)</li>
       </ul>
@@ -232,6 +249,8 @@ s
     <footer>
       &copy;JC Domingo NET
     </footer>
-  </div>
+
+</div>
+</div>
 </body>
 </html>
